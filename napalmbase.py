@@ -2,10 +2,10 @@ import json
 from napalm import get_network_driver
 
 driver=get_network_driver('ios')
-iosvl2=driver('10.70.126.152','spanigrahy','Sueme@0128')
+iosvl2=driver('****IP*****','****username*****','*****password****')
 iosvl2.open()
 
-#ios_output = iosvl2.get_facts()
+ios_output = iosvl2.get_facts()
 #ios_output = iosvl2.get_arp_table()
 #ios_output = iosvl2.get_config()
 #ios_output = iosvl2.get_environment()
